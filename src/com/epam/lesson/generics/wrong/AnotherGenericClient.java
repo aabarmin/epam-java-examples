@@ -1,4 +1,4 @@
-package com.epam.lesson.generics;
+package com.epam.lesson.generics.wrong;
 
 import java.util.ArrayList;
 import java.util.List;

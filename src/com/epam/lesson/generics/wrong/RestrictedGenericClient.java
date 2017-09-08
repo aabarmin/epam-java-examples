@@ -1,6 +1,4 @@
-package com.epam.lesson.generics;
-
-import com.sun.org.apache.regexp.internal.RE;
+package com.epam.lesson.generics.wrong;
 
 import java.util.ArrayList;
 import java.util.List;

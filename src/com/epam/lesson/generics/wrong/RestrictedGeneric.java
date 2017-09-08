@@ -1,4 +1,4 @@
-package com.epam.lesson.generics;
+package com.epam.lesson.generics.wrong;
 
 public class RestrictedGeneric<T> {
     private T value;
