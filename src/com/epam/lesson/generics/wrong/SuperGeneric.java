@@ -1,4 +1,4 @@
-package com.epam.lesson.generics;
+package com.epam.lesson.generics.wrong;
 
 public class SuperGeneric{
     public <T> T method(T value) {

@@ -1,4 +1,4 @@
-package com.epam.lesson.interfaces;
+package com.epam.lesson.interfaces.old;
 
 public class CustomListImpl implements CustomList {
     private ListElement[] data = new ListElement[10];

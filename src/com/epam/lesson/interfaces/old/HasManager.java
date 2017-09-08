@@ -1,4 +1,4 @@
-package com.epam.lesson.interfaces;
+package com.epam.lesson.interfaces.old;
 
 public interface HasManager {
     String getManagerName() throws IllegalArgumentException;

@@ -1,4 +1,4 @@
-package com.epam.lesson.interfaces;
+package com.epam.lesson.interfaces.old;
 
 public class Client {
     public static void main(String[] args) {

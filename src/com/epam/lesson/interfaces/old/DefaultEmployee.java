@@ -1,6 +1,11 @@
-package com.epam.lesson.interfaces;
+package com.epam.lesson.interfaces.old;
 
-public class Employee implements HasManager, HasSubordinators {
+public class DefaultEmployee implements CommonEmployee {
+    @Override
+    public int getId() {
+        return 0;
+    }
+
     @Override
     public String getManagerName() throws IllegalArgumentException {
         return null;

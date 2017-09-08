@@ -1,4 +1,4 @@
-package com.epam.lesson.interfaces;
+package com.epam.lesson.interfaces.old;
 
 public class CustomListClient {
     public static void main(String[] args) {

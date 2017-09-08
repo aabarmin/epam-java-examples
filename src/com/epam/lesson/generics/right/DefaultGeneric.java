@@ -1,12 +1,12 @@
-package com.epam.lesson.generics;
+package com.epam.lesson.generics.right;
 
-public class GenericClass<T> {
+public class DefaultGeneric<T> {
     private T value;
 
-    public GenericClass() {
+    public DefaultGeneric() {
     }
 
-    public GenericClass(T value) {
+    public DefaultGeneric(T value) {
         this.value = value;
     }
 

@@ -1,4 +1,4 @@
-package com.epam.lesson.interfaces;
+package com.epam.lesson.interfaces.old;
 
 public abstract class AbstractEmployee implements
                             HasSubordinators, HasManager {

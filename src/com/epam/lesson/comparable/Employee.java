@@ -1,7 +1,5 @@
 package com.epam.lesson.comparable;
 
-import com.epam.lesson.interfaces.CommonEmployee;
-
 import java.util.Arrays;
 
 public class Employee implements Comparable<Employee> {
