@@ -75,18 +75,3 @@ class AnotherHolder<T extends Pet> {
     }
 }
 
-class Animal {
-    public void feed() {}
-}
-
-class Pet extends Animal {
-    public void call() {}
-}
-
-class Cat extends Pet {
-    public void meow() {}
-}
-
-class Dog extends Pet {
-    public void bark() {}
-}
