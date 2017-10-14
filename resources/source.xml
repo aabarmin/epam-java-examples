@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<definition startEvent="CREATE"
+            startState="DRAFT"
+            handler="com.epam.lesson.xml.jaxb.Definition">
+
+    <transitions>
+        <transition from="DRAFT" to="ACCOUNTED" on="ACCEPT" call="onAccept" />
+        <transition from="ACCOUNTED" to="ISSUED" on="ISSUE" call="onIssue" />
+        <transition from="ISSUED" to="ACCOUNTED" on="RETURN" call="onReturn" />
+        <transport from="DRAFT" to="NEW_YORK" />
+    </transitions>
+</definition>
